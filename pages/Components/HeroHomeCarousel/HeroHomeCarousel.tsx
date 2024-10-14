@@ -4,8 +4,8 @@ export default function HeroHomeCarousel() {
   return (
     <>
       <div className="">
-        <div className="hero bg-blue-700">
-          <div className="hero-content text-start flex-col lg:flex-row bg-red-600">
+        <div className="hero ">
+          <div className="hero-content text-start flex-col lg:flex-row">
             <img
               src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
               className="max-w-sm rounded-lg shadow-2xl h-[600px]"

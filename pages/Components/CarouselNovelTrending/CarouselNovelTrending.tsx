@@ -4,7 +4,7 @@ import React from "react";
 export default function CarouselNovelTrending() {
   return (
     <>
-      <div className=" flex flex-col bg-slate-500">
+      <div className=" flex flex-col bg-slate-800 px-4 md:px-20">
         <div className=" my-5">
           <h5 className=" text-xl font-bold text-black">Novel Trending</h5>
         </div>
