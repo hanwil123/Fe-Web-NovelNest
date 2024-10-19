@@ -12,7 +12,7 @@ export default function Navbarr() {
   return (
     <>
       <Navbar fluid rounded className=" bg-black">
-        <NavbarBrand href="https://flowbite-react.com">
+        <NavbarBrand href="/">
           <img
             src="/novelnestlogo.png"
             className="mr-3 h-6 sm:h-9"
@@ -20,11 +20,11 @@ export default function Navbarr() {
           />
         </NavbarBrand>
         <div className="flex md:order-2">
-          <Button>Login</Button>
+          <Button><Link href="/Components/LoginForm/LoginForm">Login</Link></Button>
           <NavbarToggle />
         </div>
         <NavbarCollapse>
-          <NavbarLink href="#">Kategori</NavbarLink>
+          <NavbarLink href="/Views/ListBookByCategory/ListBookByCategory">Kategori</NavbarLink>
           <NavbarLink href="#">Penulis</NavbarLink>
           <NavbarLink href="#">Blog</NavbarLink>
         </NavbarCollapse>
