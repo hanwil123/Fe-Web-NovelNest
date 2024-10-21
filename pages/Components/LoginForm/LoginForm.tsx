@@ -8,8 +8,8 @@ export default function LoginForm() {
     <>
       <div className="flex-col w-screen h-screen ">
         <div className=" bg-blue-500 w-full h-full flex items-center">
-          <form className="max-w-sm mx-auto w-[550px] bg-yellow-400 px-10 py-10">
-            <div className="mb-5 space-y-5 ">
+          <form className=" mx-auto w-[550px] bg-yellow-400 px-10 py-10">
+            <div className="mb-3 space-y-2 ">
               <div className=" flex justify-center">
                 <img
                   src="/novelnestlogo.png"
@@ -31,7 +31,7 @@ export default function LoginForm() {
                 required
               />
             </div>
-            <div className="mb-5 space-y-5">
+            <div className="mb-3 space-y-2">
               <label
                 htmlFor="password"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-center"
@@ -74,7 +74,7 @@ export default function LoginForm() {
               <div className=" flex flex-row space-x-2">
                 <p className=" text-black">Belum punya akun? </p>
 
-                <a href="">
+                <a href="/Components/RegisterForm/RegisterForm">
                   <p className=" text-black">Register</p>
                 </a>
               </div>
