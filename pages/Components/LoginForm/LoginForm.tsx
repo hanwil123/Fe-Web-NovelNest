@@ -1,4 +1,5 @@
 import { FooterIcon } from "flowbite-react";
+import Link from "next/link";
 import React from "react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
@@ -74,9 +75,9 @@ export default function LoginForm() {
               <div className=" flex flex-row space-x-2">
                 <p className=" text-black">Belum punya akun? </p>
 
-                <a href="/Components/RegisterForm/RegisterForm">
+                <Link href="/Components/RegisterForm/RegisterForm">
                   <p className=" text-black">Register</p>
-                </a>
+                </Link>
               </div>
               <div className=" ">
                 <p className=" text-black">login with</p>
